@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#" class="toggle-btn" onclick="toggleThis(this)">
+        <span class="bar bar-one"> 
+        <span class="bar1"></span>
+        <span class="bar2"></span> 
+        </span>
+        <span class="bar bar-two"></span>
+        <span class="bar bar-three">
+        <span class="bar3"></span>
+        <span class="bar4"></span> 
+        </span>
+    </a>
+
+    <div class="navbar">
+        <div class="nav-links">
+            <ul>
+                <div class="dropdown-one">
+                    <div class="dropdown-one-link">
+                <li><a href="#"  onclick="myFunction()"   id="link-one">NEWS & FEATURES <i class="arrow arrow-rotate"></i></a></li>
+            </div>
+                <div class="dropdown-one-content" onmouseleave="toggleHide()"> 
+                 <a href="#" id="content-links"><img src="images/wizard_s_post_office_by_nakanoart_d98fix5.jpg" alt=""><h2>News</h2></a>
+                 <a href="#" id="content-links"><img src="images/nostalgia_by_viria13_davc5lj.png" alt=""><h2>Features</h2></a>
+                </div>
+            </div>
+                <li><a href="#">QUIZZES</a></li>
+                <li><a href="#">PUZZLES</a></li>
+                <li><a href="#">J.K ROWLING ARCHIVE</a></li>
+                <div class="dropdown-two">
+                    <div class="dropdown-two-link">
+                <li><a href="#" onclick="myFunctionTwo()" id="link-two">DISCOVER <i class="arrow arrow-rotate-two"></i></a></li>
+                   </div>
+                <div class="dropdown-two-content" onmouseleave="toggleHideTwo(this)">
+                <a href="#"><img src="images/harry_potter_2_by_nesskain_d214sgq.jpg" alt=""><h2>Books</h2></a>
+                <a href="#"><img src="images/harry_potter_by_diegobernardo_d41c0a3.png" alt=""><h2>Films</h2></a>
+                <a href="#"><img src="images/harry__hermione_and_ron_by_akai_monkey_d9izst8.jpg" alt=""><h2>On Stage</h2></a>
+                <a href="#"><img src="images/harry_potter___mischief_by_kanae_d45wbm5.png" alt=""><h2>Portkey Games</h2></a>
+                <a href="#"><img src="images/hapy_halloween__by_vladislavpantic_de7wb59.jpg" alt=""><h2>Attractions</h2></a>
+                </div>
+            </div>
+                <li><a href="#">HOWGARTS SORTING</a></li>
+                <li><a href="#">FOR KIDS</a></li>
+                <li><a href="#">POTRAIT MAKER</a></li>
+                <li><a href="#">SHOP</a></li>
+                <button class="login-btn">LOGIN</button>
+            </ul>
+            
+        </div>
+       
+    </div>
+     <div class="text">
+    <h1>
+        Welcome to the <br> Wizarding World
+    </h1>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
